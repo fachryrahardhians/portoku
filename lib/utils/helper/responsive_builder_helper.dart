@@ -19,7 +19,7 @@ class MyResponsiveWidget extends StatelessWidget {
       mobile: (BuildContext context) => mobile,
       tablet: (BuildContext context) => tablet,
       desktop: (BuildContext context) => desktop,
-      breakpoints: ScreenBreakpoints(
+      breakpoints: const ScreenBreakpoints(
         desktop: 950,
         tablet: 600,
         watch: 300,

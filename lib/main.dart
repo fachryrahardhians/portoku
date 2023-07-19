@@ -4,8 +4,8 @@ import 'package:portoku/configs/app.dart';
 import 'package:portoku/firebase_options.dart';
 
 void main() async {
+  /// initialize firebase
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-
   runApp(
     const MainApp(),
   );

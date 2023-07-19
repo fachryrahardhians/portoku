@@ -43,6 +43,8 @@ class DefaultFirebaseOptions {
     }
   }
 
+  // update api key to the command build later
+
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCSV0HJQv5EvMHAZOUQ1IlyogmLuSGXR1E',
     appId: '1:544513474686:web:b63be6448513351ddc582f',
@@ -67,7 +69,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '544513474686',
     projectId: 'portoku-21fd9',
     storageBucket: 'portoku-21fd9.appspot.com',
-    iosClientId: '544513474686-fvq123vqhib9oh549udgh2f2p3qlqi9r.apps.googleusercontent.com',
+    iosClientId:
+        '544513474686-fvq123vqhib9oh549udgh2f2p3qlqi9r.apps.googleusercontent.com',
     iosBundleId: 'com.example.portoku',
   );
 
@@ -77,7 +80,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '544513474686',
     projectId: 'portoku-21fd9',
     storageBucket: 'portoku-21fd9.appspot.com',
-    iosClientId: '544513474686-q05kb4j55i6mptr87gv0tk8mng9lhlc3.apps.googleusercontent.com',
+    iosClientId:
+        '544513474686-q05kb4j55i6mptr87gv0tk8mng9lhlc3.apps.googleusercontent.com',
     iosBundleId: 'com.example.portoku.RunnerTests',
   );
 }
